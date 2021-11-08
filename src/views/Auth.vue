@@ -1,12 +1,12 @@
 <template>
      <div class="text-center ma-2 loginWraper" >
        
-    <v-card
+    <v-card class="login"
       elevation="2"
       loading
       outlined
     >
-    <v-card-title class="login">Login</v-card-title>
+    <v-card-title >Login</v-card-title>
          <v-form>
     <v-container>
       <v-row>
@@ -72,13 +72,15 @@ data(){
 <style>
 
  .loginWraper{
-   width: 500px;
+   width: 100%;
    margin: 50px auto
  }
- /* .login{
+ .login{
    margin: 0 auto;
-   width: 100px;
- } */
+   width: 500px;
+ }
+
+
 </style>
 
 
